@@ -4,7 +4,7 @@ Projeto para treinar a diagramação de classes tendo como base um iPhone. O pro
 
 ### Classes
 
-A classe `iPhone` implementa as interfaces `InternetBrowser`, `MusicPlayer` e `TelephoneCall`.
+A classe [`iPhone`](./src/iPhone.java) implementa as interfaces `InternetBrowser`, `MusicPlayer` e `TelephoneCall` e [`App`](./src/App.java) é a classe principal que instancia um objeto da classe `iPhone` e chama os métodos das interfaces implementadas.
 
 ```java
 public class iPhone implements InternetBrowser, MusicPlayer, TelephoneCall {
